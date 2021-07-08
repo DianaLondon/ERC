@@ -1,3 +1,7 @@
+
+/*RESPOSIVE DEL CONTENEDOR DE VERDURAS */
+
+
 @media only screen and (max-width:420px){
 
     .titleVegetable{
@@ -85,7 +89,7 @@
     
     }
 
-       /*SEGUNDA PARTE*/
+    /*PARTE DE LOS PRODUCTOS */
 
 
     .Familia1{
@@ -132,7 +136,6 @@
         margin: 30px 0 0 9%;
     }
 
-      /*ESTILOS DE LOS PRODUCTOS*/
     .containerProductos{
         height: auto;
         display: grid;
@@ -161,8 +164,31 @@
     
     p{  
         font-size: 9px;
-        width: 80%;
         text-align: justify;
+    }
+
+    .card .details{
+        text-align: justify;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .imgBx{
+        left: 15%;
+        max-width: 150px;
+        max-height: 125px;
+    }
+    
+    
+    .contentCards .card .imgBx img{
+        max-width: 80px;
+        transition: 0.5s ease-in-out;
     }
 
     /*ESTILOS DE BOTONES*/
@@ -173,52 +199,42 @@
     color: #fff; 
     font-size: 0.9em;
 
-}
-
-.imgBx{
-    left: 15%;
-    max-width: 150px;
-    max-height: 125px;
-}
-
-
-.contentCards .card .imgBx img{
-    max-width: 80px;
-    transition: 0.5s ease-in-out;
-}
+    }
 
 
 
-/*FOOTER*/
-.cajitafooter .frase {
-color: rgb(119, 231, 98);
-font-size: 11pX;
-        }
-
-.cajitafooter{
-width: 50%;
-        }
-
-.cajitafooter img{
-margin-left: 3%;
-width: 50px;
-        }
-
-.RedesSociales{
-margin-top: 2%;
-width: 47%;
-justify-content: flex-end;
-display: flex;
+    /*FOOTER*/
+    .cajitafooter .frase {
+    color: rgb(119, 231, 98);
+    font-size: 11pX;
             }
 
-.RedesSociales img{
-margin-right: 10px;
-width: 19px;
-            
-        }
+    .cajitafooter{
+    width: 50%;
+            }
+
+    .cajitafooter img{
+    margin-left: 3%;
+    width: 50px;
+            }
+
+    .RedesSociales{
+    margin-top: 2%;
+    width: 47%;
+    justify-content: flex-end;
+    display: flex;
+                }
+
+    .RedesSociales img{
+    margin-right: 10px;
+    width: 19px;
+                
+            }
 
 
 }
+
+/*RESPONSIVIDAD DE LOS 421 PX A 768PX */
 
 @media only screen and (min-width:421px) and (max-width:768px) {
 
@@ -338,9 +354,20 @@ width: 19px;
         border-top: 40px solid white;
     }
 
+    .card .details{
+        text-align: justify;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+    }
+
 
     p{
-    width: 85%;
     text-align: justify
     }
 
@@ -348,7 +375,7 @@ width: 19px;
         width: 55%;
         padding-right: 15%;
     }
-/* SEGUNDA PARTE*/
+/* PARTE DE LOS PRODUCTOS*/
 
     .Familia1 p {
     font-size: 55px;
@@ -538,16 +565,26 @@ width: 19px;
         border-top: 100px solid white;
     }
 
-
-    .social-icons p{
-    font-size: 18px;
-    width: 80%;
-    text-align: justify
-    }
-
     .title{
         width: 55%;
         padding-right: 15%;
+    }
+
+    .card .details{
+        text-align: justify;
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    p{  
+        padding-right:5% ;
+        font-size: 18px;
     }
 
 /* SEGUNDA PARTE*/
@@ -591,31 +628,31 @@ width: 19px;
     }
 
 
-/*FOOTER*/
-.cajitafooter .frase {
-    color: rgb(119, 231, 98);
-     font-size: 11pX;
-}
+    /*FOOTER*/
+    .cajitafooter .frase {
+        color: rgb(119, 231, 98);
+        font-size: 11pX;
+    }
 
-.cajitafooter{
-    width: 50%;
-}
+    .cajitafooter{
+        width: 50%;
+    }
 
-.cajitafooter img{
-    margin-left: 3%;
-    width: 50px;
-}
+    .cajitafooter img{
+        margin-left: 3%;
+        width: 50px;
+    }
 
-.RedesSociales{
-    margin-top: 2%;
-    width: 47%;
-    justify-content: flex-end;
-    display: flex;
-}
+    .RedesSociales{
+        margin-top: 2%;
+        width: 47%;
+        justify-content: flex-end;
+        display: flex;
+    }
 
-.RedesSociales img{
-    margin-right: 10px;
-    width: 19px;     
-}     
+    .RedesSociales img{
+        margin-right: 10px;
+        width: 19px;     
+    }     
 
 }
